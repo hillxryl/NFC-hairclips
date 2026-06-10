@@ -23,9 +23,9 @@
     <body>
         <img src="anika.jpeg" id="myImage">
         <script>
-            if (Math.random() < 0.20) {
+            if (Math.random() < 0.25) {
                 // make image appear
-                document.body.style.display="block"
+                document.body.style.display="block";
 
                 // trigger zoom
                 requestAnimationFrame(() => {
@@ -34,6 +34,8 @@
                 
                 setTimeout(() => {
                     window.location.href="https://www.instagram.com/anikabeatriceho/";}, 1000);
+                
+                document.body.style.display="none";
 
             } else {
                 window.location.href="https://www.instagram.com/anikabeatriceho/";
