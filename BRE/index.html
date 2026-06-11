@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <style>
             body {
-                display: none; 
+                display: none;
                 margin: 0;
             }
 
@@ -14,14 +14,14 @@
                 width: 100vw;
                 height: 100vh;
                 object-fit: cover;
-                transition: transform 1s ease-in-out; /* smooth transition */
+                transition: transform 1s ease-in-out;
             }
         </style>
     </head>
 
 
     <body>
-        <img src="anika.jpeg" id="myImage">
+        <img src="bre.jpeg" id="myImage">
 
         <script>
             if (Math.random() < 0.25) {
@@ -32,14 +32,14 @@
                 requestAnimationFrame(() => {
                     document.getElementById("myImage").style.transform = "scale(1.5)";
                 });
-                
+
                 // redirect to IG after 1 second + make image disappear
                 setTimeout(() => {
-                    window.location.href="https://www.instagram.com/anikabeatriceho/"; 
+                    window.location.href="https://www.instagram.com/breannatam/";
                     document.body.style.display="none";}, 1000);
                 
             } else {
-                window.location.href="https://www.instagram.com/anikabeatriceho/";
+                window.location.href="https://www.instagram.com/breannatam/";
             }
         </script>
     </body>
