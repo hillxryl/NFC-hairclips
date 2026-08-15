@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <style>
             body {
-                display: none;
+                display: none; 
                 margin: 0;
             }
 
@@ -14,14 +14,14 @@
                 width: 100vw;
                 height: 100vh;
                 object-fit: cover;
-                transition: transform 1s ease-in-out;
+                transition: transform 1s ease-in-out; /* smooth transition */
             }
         </style>
     </head>
 
 
     <body>
-        <img src="arya.jpg" id="myImage">
+        <img src="june.jpg" id="myImage">
 
         <script>
             if (Math.random() < 0.50) {
@@ -32,14 +32,14 @@
                 requestAnimationFrame(() => {
                     document.getElementById("myImage").style.transform = "scale(1.5)";
                 });
-
+                
                 // redirect to IG after 1 second + make image disappear
                 setTimeout(() => {
-                    window.location.href="https://www.instagram.com/a.xryaaa/";
+                    window.location.href="https://www.instagram.com/txjvn_/"; 
                     document.body.style.display="none";}, 1000);
                 
             } else {
-                window.location.href="https://www.instagram.com/a.xryaaa/";
+                window.location.href="https://www.instagram.com/txjvn_/";
             }
         </script>
     </body>
